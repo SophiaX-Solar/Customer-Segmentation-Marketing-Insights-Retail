@@ -7,7 +7,7 @@ library(dplyr)
 library(ggpubr)
 library(tidyr)
 
-data <- read.csv("~/Desktop/Marketing Analysis/Assign1/SmartFresh Retail.csv") # please update with the correct file path
+data <- read.csv("~/Documents/Course/Marketing Analysis/Project1/dataset/SmartFresh Retail.csv") # please update with the correct file path
 
 #Step1:Delete the missing value row
 data_clean <- data[!is.na(data$Annual_Income), ]
