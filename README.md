@@ -58,5 +58,5 @@ Product strategies were also adapted by category (e.g., wine vs. wellness produc
 
 <br/>
 
-## 📂 Repository Structure
+## Repository Structure
 
