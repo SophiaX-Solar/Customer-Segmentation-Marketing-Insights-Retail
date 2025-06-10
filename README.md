@@ -1,4 +1,4 @@
-# SmartFresh Customer Segmentation & Marketing Insights
+# SmartFresh Customer Segmentation & Marketing Insights(Retail)
 
 This project explores customer segmentation and marketing effectiveness for **SmartFresh**, a premium food and wine retailer. Using real-world transaction-level data, I applied statistical and machine learning methods to identify key customer segments and provide strategic recommendations for personalised marketing.
 
