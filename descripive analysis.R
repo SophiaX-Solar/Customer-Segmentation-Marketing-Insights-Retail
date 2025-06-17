@@ -5,13 +5,13 @@ library(dplyr)
 library(ggpubr)
 library(tidyr)
 
-data <- read.csv("/Users/xifei/Desktop/Marketing Analysis/Assign1/SmartFresh Retail.csv") # please update with the correct file path
+data <- read.csv("～/Desktop/Marketing Analysis/Assign1/SmartFresh Retail.csv") # please update with the correct file path
 
 #Step1:Delete the missing value row
 data_clean <- data[!is.na(data$Annual_Income), ]
 colSums(is.na(data_clean))
 
-#Step2:Create Age Groups
+# Step 2: Create Age Groups
 # Calculate age based on birth year
 data_clean$Age <- 2025 - data_clean$Year_Birth
 
